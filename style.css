@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://escritoriodreher.com.br/wp-content/uploads/2018/09/opera%C3%A7%C3%A3o-tio-patinhas.jpg);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.5rem;
+    margin-top: -10rem;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.countdown-container {
+    display: flex;
+    
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+}
